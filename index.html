@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>飞机大战</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,;minimun-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/plan.css">
+</head>
+<body>
+<!-- 盒子 -->
+<div id='box' class="box">
+
+	<!-- 主页面 begin-->
+	<div id="start" class="start">
+		<div id="begin" class="begin">开始游戏
+		<img src="./images/enemy1.png">
+		</div>
+	</div>
+	<!-- 主页面 end -->
+
+	<!-- 游戏界面 -->
+	<div id="game" class="game">
+			<!-- 两个交替背景 -->
+			<div class="bg bg1"></div>
+			<div class="bg bg2"></div>
+
+			<!-- 我方飞机 -->
+			<div id="myplan" class="myplan">
+				<img class="auto" src="./images/plane.gif">
+			</div>	
+
+			<!-- 透明层 -->
+			<div id="layer" class="layer"></div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="./js/plan.js"></script>
+</body>
+</html>
